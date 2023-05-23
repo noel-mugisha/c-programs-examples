@@ -9,7 +9,7 @@ struct Car {
 };
 
 int main() {
-    // Allocating dynamically the memory to two variables of type Car
+    // Allocating dynamically the memory to two variables of type car
     struct Car* car1 = (struct Car*)malloc(sizeof(struct Car));
     struct Car* car2 = (struct Car*)malloc(sizeof(struct Car));
 
